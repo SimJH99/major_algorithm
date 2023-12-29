@@ -6,6 +6,7 @@ public class DFSListGraph {
     static boolean[] visited;
     public static void main(String[] args) {
         int[][] inputArr = {{0,1}, {0,2}, {1,3}, {2,3}, {2,4}};
+
         int node_n = 5;
         visited = new boolean[node_n];
         adjList = new ArrayList<>();
